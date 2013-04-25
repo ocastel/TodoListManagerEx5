@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+   <PreferenceCategory
+   android:summary="Tweeting information"
+   android:title="hashtag serach" >
+  <EditTextPreference
+     android:key="hashtag"
+     android:defaultValue="todolist"
+     android:summary="Please enter hashtag for tasks fatching from tweeter"
+     android:title="hashtag search" />
+  
+ 	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="Usage information"
+		android:summary="Usage information"	>
+  	
+	<CheckBoxPreference
+    	android:defaultValue="false"
+        android:key="first_run"
+        android:summary="is_first_app_run"
+        android:title="first_run" >
+	</CheckBoxPreference>
+	    	
+ 	</PreferenceCategory>
+	    
+   
+   
+ </PreferenceScreen>

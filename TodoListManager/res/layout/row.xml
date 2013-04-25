@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+    	android:id="@+id/thumbnail"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:contentDescription="@string/thumbnail_image"
+		android:layout_alignTop="@+id/txtTodoTitle"
+		android:layout_alignBottom="@+id/txtTodoTitle"
+		android:src="@drawable/ic_launcher" />    	
+
+    	<TextView
+		android:id="@+id/txtTodoTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/txtTodoDueDate"
+		android:text=""
+		android:maxLines="1"
+		android:scrollHorizontally="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <TextView
+        android:id="@+id/txtTodoDueDate"
+		android:layout_toRightOf="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+
+</RelativeLayout>

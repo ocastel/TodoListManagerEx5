@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TodoListManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="to_do_">Task:</string>
+    <string name="add_task_">Add</string>
+    <string name="remove_task_">Delete</string>
+    <string name="parseApplication">ne3DoOdCw0fYpmZMtMp7IWng5ixXmNZfctE9ibsL</string>
+    <string name="clientKey">XWtQOa9X0u6NEPtjlz0cZLulGpTcdy4FE2vrs4G3</string>
+    <string name="flickr_api_key">a5e244369cc9ebaf207d5cd7fe85450e</string>
+    <string name="btn_search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="clear_results">Clear Results</string>
+    <string name="ok_thumb">OK</string>
+    <string name="cancel_thumb">Cancel</string>
+    <string name="thumbnail_image">thumbnail_image</string>
+    
+    
+</resources>

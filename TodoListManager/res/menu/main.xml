@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menuItemAdd"
+        android:title="@string/add_task_" />
+    
+    <item android:id="@+id/hashtagSet"
+        android:title="Set Hashtag!" />
+    
+    
+</menu>    
